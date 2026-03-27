@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hello, I'm Dandreb Gene D. Galleta</h1>
+        <p>Grade 11 ICT Student</p>
+        <button id="greetBtn">Click to say hello!</button>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="photo.jpg" alt="Me" class="profile-pic">
+            <p>Hi! I am an ICT student who loves to play Video Games.</p>
+        </section>
+
+        <section id="hobbies">
+            <h2>My Hobbies</h2>
+            <div class="hobby-container">
+                
+                <div class="hobby">
+                    <img src="playinggames.jpg" alt="Coding">
+                    <h3>Playing Video Games</h3>
+                    <p>I love Gaming. I game everyday</p>
+                </div>
+
+                <div class="hobby">
+                    <img src="sketch.jpg" alt="Sketch">
+                    <h3>Sketching</h3>
+                    <p>I like sketching because it fascinates me that I can draw anything with my own hands, especially Anime/Manga style</p>
+                </div>
+
+                <div class="hobby">
+                    <img src="chesspiano.jpg" alt="Chess and Piano">
+                  <h3>Chess and Piano</h3>
+                    <p>I used to play chess and Piano but I felt that it wasn't for me.</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>2026 Galleta. All rights reserved.</p>
+    </footer>
+    <script>
+        const button = document.getElementById('greetBtn');
+        
+        button.addEventListener('click', function() {
+            alert('Welcome to my personal website! Thank you for visiting.');
+        });
+    </script>
+</body>
+</html>
